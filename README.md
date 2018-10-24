@@ -1,2 +1,2 @@
-# RHU
+# RHUMS
 capstone
