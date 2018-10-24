@@ -1,0 +1,49 @@
+/*counter*/
+.full-bg-image {
+    background: rgba(0, 0, 0, 0) url("../images/book.png") no-repeat scroll 0 0 / cover ;
+    color: #fff;
+    padding: 75px;
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 2;
+    padding: 20px;  
+}
+.information > h1::after {
+    border: 3px solid rgba(0, 0, 0, 0);
+    border-radius: 2px;
+    content: "";
+    display: block;
+    margin: 10px auto 20px;
+    width: 30%;
+}
+
+.information > h1 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing:1px;
+}
+.information > h1.blue-line::after {
+    border-color: #066FA5;
+}
+.information > h1.green-line::after {
+    border-color: #11CD86;
+}
+.information > h1.yellow-line::after {
+    border-color: #F6D600;
+}
+.information > h1.red-line::after {
+    border-color: #F70044;
+}
+.information > h5 {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+    font-family: arial bold;
+    margin-bottom: 20px;
+}
